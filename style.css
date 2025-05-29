@@ -45,8 +45,8 @@ cats-facts-form::h2{
   font-weight: 500;
 }
 
-input::text{
-  font-size: 2rem;
+input[type="text"]{
+  font-size: 1.4rem;
 }
 
 .submit{
@@ -85,4 +85,20 @@ input::placeholder{
 button::span{
   font-family: "Roboto", sans-serif;
   font-size: 4rem;
+}
+
+.result-box{
+  padding: 2rem 13rem;
+  margin-top: 2rem;
+  font-size: 1.5rem;
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  gap: 1rem;
+  min-height: 100vh;
+}
+
+.cat-photo{
+  width: 20rem;
+  height: 20rem;
 }
